@@ -58,14 +58,14 @@ import ImageBlurShadow from 'react-native-image-blur-shadow'
 
 | Property             |  Type   | Default | Description                                  |
 | -------------------- | :-----: | :-----: | -------------------------------------------- |
-| style                | object  |  {}     | set the style of component container         |
+| style                | object  |  `{}`     | set the style of component container         |
 | source               | string  |  null   | set the image source                         |
 | imageWidth           | number  |  default| set image width                              |
 | imageHeight          | number  |  default| set image height                             |
 | imageBorderRadius    | number  |  12     | set image border radius                      |
 | shadowOffset         | number  |  38     | set/override shadow offset                   |
 | shadowBlurRadius     | number  |  34     | set/override shadow blurRadius               |
-| shadowBackgroundColor| HexColor|  #ffffff| set/override shadow background color         |
+| shadowBackgroundColor| HexColor|`#ffffff`| set/override shadow background color         |
 
 
 # License
