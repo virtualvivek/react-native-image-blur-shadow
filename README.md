@@ -58,7 +58,7 @@ import ImageBlurShadow from 'react-native-image-blur-shadow'
 
 | Property             |  Type   | Default | Description                                  |
 | -------------------- | :-----: | :-----: | -------------------------------------------- |
-| style                | object  |  `{}`     | set the style of component container         |
+| style                | object  |  `{}`   | set the style of component container         |
 | source               | string  |  null   | set the image source                         |
 | imageWidth           | number  |  default| set image width                              |
 | imageHeight          | number  |  default| set image height                             |
