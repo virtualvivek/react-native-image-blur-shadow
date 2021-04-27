@@ -26,6 +26,11 @@ A RN library provides Image blur shadows supports nice animations and easy to cu
         alt="NPMJS" />
 </a>
 
+<p>
+    <img src="app/markdown/md_preview_one.jpg" width="250" />
+    <img src="app/markdown/md_preview_two.jpg" width="250" />
+</p>
+
 # Installation
 
 ```ruby
