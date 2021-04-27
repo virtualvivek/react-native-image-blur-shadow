@@ -72,6 +72,8 @@ import ImageBlurShadow from 'react-native-image-blur-shadow'
 | shadowBlurRadius     | number  |  34     | set/override shadow blurRadius               |
 | shadowBackgroundColor| HexColor|`#ffffff`| set/override shadow background color         |
 
+## Find this library useful? :heart:
+Support it by joining [stargazers](https://github.com/virtualvivek/react-native-image-blur-shadow/stargazers) for this repository. :star:
 
 # License
 
