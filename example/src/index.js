@@ -1,40 +1,49 @@
 import React from 'react'
 import { View, Image, StyleSheet } from 'react-native'
-import FadedView from './utils/FadedView'
 
 const ImageBlurShadow = (props) => {
 
   return (
     <View style={props.style}>
-        <Image
-            source={props.source}
-            style={[{
-                resizeMode: props.imageResizeMode,
-                width: props.imageWidth,
-                height: props.imageHeight,
-                borderRadius: props.imageBorderRadius,
-                marginBottom: props.shadowOffset
-                },
-                styles.image
-              ]}
-        />
+      <Image
+        source={props.source}
+        style={[{
+            width: props.imageWidth,
+            height: props.imageHeight,
+            borderRadius: props.imageBorderRadius,
+            marginBottom: props.shadowOffset,
+            resizeMode: props.imageResizeMode,
+            },
+            styles.image
+          ]}
+      />
       <View style={[
           {width: props.imageWidth}],
           styles.shadow_container}>
         <Image
-            source={props.source}
-            style={{
-                resizeMode:'cover',
-                width: props.imageWidth,
-                height: props.imageHeight,
-            }}
-            blurRadius={props.shadowBlurRadius}
+          source={props.source}
+          style={{
+              resizeMode:'cover',
+              width: props.imageWidth,
+              height: props.imageHeight
+          }}
+          blurRadius={props.shadowBlurRadius}
         />
-        <FadedView
-          color={props.shadowBackgroundColor}
-          height={135}
-          imageHeight={props.imageHeight}>
-        </FadedView>
+        <Image 
+          source={require('./assets/blur.png')}
+          resizeMethod='auto'
+          
+          tintColor={props.shadowBackgroundColor}
+          style={{
+            width: '100%',
+            position: 'absolute',
+            height: undefined,
+            bottom: 0,
+            left: 0,
+            aspectRatio: 1.8,
+            resizeMode: 'cover'
+          }}
+          />
       </View>
     </View>
   )
@@ -47,8 +56,8 @@ const ImageBlurShadow = (props) => {
     },
     shadow_container:{
       position:'absolute',
-      zIndex:0,
-      bottom:0,
+      zIndex: 0,
+      bottom: 0,
     }
   })
   
@@ -56,7 +65,8 @@ const ImageBlurShadow = (props) => {
       imageWidth: 200,
       imageHeight: 200,
       shadowBlurRadius: 38,
-      shadowOffset: 34
+      shadowOffset: 52,
+      shadowBackgroundColor: '#ffffff'
     }
   
   export default ImageBlurShadow

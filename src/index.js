@@ -1,60 +1,69 @@
-import React, { useState } from 'react'
-import { View, Image, Text } from 'react-native'
-import FadedView from './utils/FadedView'
+import React from 'react'
+import { View, Image, StyleSheet } from 'react-native'
 
 const ImageBlurShadow = (props) => {
 
-    const [didLoad, setLoad] = useState(false)
-  
-      const renderLoader = () => {
-        return  <View>
-                  <Text>Loading</Text>
-                </View>
-      }
-  
-      const handleOnLoad = () => {
-        setLoad(true)
-      }
-  
-    return (
-      <View>
-
-        <View style={styles.blur_shadow_container}>
+  return (
+    <View style={props.style}>
+        <Image
+            source={props.source}
+            style={[{
+                resizeMode: props.imageResizeMode,
+                width: props.imageWidth,
+                height: props.imageHeight,
+                borderRadius: props.imageBorderRadius,
+                marginBottom: props.shadowOffset
+                },
+                styles.image
+              ]}
+        />
+      <View style={[
+          {width: props.imageWidth}],
+          styles.shadow_container}>
         <Image
             source={props.source}
             style={{
-                objectFit: props.objectFit,
-                width: props.width,
-                height: props.height,
+                resizeMode:'cover',
+                width: props.imageWidth,
+                height: props.imageHeight,
+                opacity:1 
             }}
-            // onLoad={() => setLoad(true)}
-            onLoad={() => { handleOnLoad(); props.onLoad() }}
+            blurRadius={props.shadowBlurRadius}
         />
-        <FadedView color="#ecf0f1" height={120}></FadedView>
-        </View>
-  
-            {props.isLoading ? renderLoader() : ""}
-            {didLoad ? "" : renderLoader()}
+        <Image 
+          source={require('./assets/blur.png')}
+          style={{
+            position:'absolute',
+            width:props.imageWidth,
+            height:'80%',
+            bottom:0,
+            left:0,
+            resizeMode:'stretch',
+            tintColor: props.shadowBackgroundColor
+          }}
+          />
       </View>
-    )
-  }
+    </View>
+  )
+}
 
   const styles = StyleSheet.create({
-  
-    blur_shadow_container: {
-      flex: 1,
-      justifyContent: 'center',
-      paddingTop: Constants.statusBarHeight,
-      backgroundColor: '#ecf0f1',
-      padding: 8
+    image:{
+      zIndex:1
     },
-  
+    shadow_container:{
+      position:'absolute',
+      zIndex: 0,
+      bottom: 0,
+    }
   })
   
   ImageBlurShadow.defaultProps = {
-      isLoading: false,
-      objectFit: 'cover',
-      onLoad: () => {}
+      imageWidth: 200,
+      imageHeight: 200,
+      shadowBlurRadius: 38,
+      shadowOffset: 52,
+      shadowBackgroundColor: '#ffffff'
     }
   
   export default ImageBlurShadow

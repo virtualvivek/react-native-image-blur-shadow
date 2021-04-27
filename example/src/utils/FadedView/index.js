@@ -7,23 +7,34 @@ const divisor = 1000;
 const divisor2 = 1500;
 const pi = 1/divisor;
 
-class FadedView extends React.PureComponent {
+class FadedView extends React.Component {
   constructor(props) {
     super(props);
+    
+    this.state = {
+      collection: []
+    }
+
+    
+  }
+
+  componentDidMount(){
     let i;
     let collection = [];
 
     let pixelsStyle = {
       width: '100%',
       position: 'absolute',
-      height: props.height,
-      flexDirection: 'column'      
+      bottom: 0,
+      height: 100,
+      flexDirection: 'column',
+      transform: [{scaleY: 0.5}]     
     };
     let pixelsStyleLeft = {
       width: 50,
       position: 'absolute',
       bottom: 0,
-      height: props.imageHeight,
+      height: this.props.imageHeight,
       flexDirection: 'row-reverse',
       transform: [{scaleX: 0.5}]
     };
@@ -31,7 +42,7 @@ class FadedView extends React.PureComponent {
       width: 50,
       position: 'absolute',
       bottom: 0,
-      height: props.imageHeight,
+      height: this.props.imageHeight,
       flexDirection: 'row',
       transform: [{scaleX: 0.5}]
     };
@@ -48,7 +59,7 @@ class FadedView extends React.PureComponent {
       }
       collection.push(0);
       i = pi;
-      while (i < 1) {
+      while (i < 0.5) {
         collection.push(i);
         i += pi;
       }
@@ -57,18 +68,19 @@ class FadedView extends React.PureComponent {
     // }
 
     let r = 0, g = 0, b = 0;
-    if (hexToRgb(props.color)) {
-      r = hexToRgb(props.color).r;
-      g = hexToRgb(props.color).g;
-      b = hexToRgb(props.color).b;
+    if (hexToRgb(this.props.color)) {
+      r = hexToRgb(this.props.color).r;
+      g = hexToRgb(this.props.color).g;
+      b = hexToRgb(this.props.color).b;
     }
-    this.state = {
+    this.setState({
       collection,
       pixelsStyle,
       pixelsStyleLeft,
       pixelsStyleRight,
       r, g, b
-    };
+    })
+
   }
 
   // Code to capture shadowBackgroundColor prop changes --
@@ -107,7 +119,7 @@ class FadedView extends React.PureComponent {
         </View>
       </View>
 
-      <View style={{marginStart:-8,flex:1,alignContent:'flex-start'}}>
+      <View style={{marginStart:-8, flex:1, alignContent:'flex-start'}}>
         <View style={pixelsStyleLeft}>
           {collection.map((o, key) =>
             <View
@@ -121,7 +133,7 @@ class FadedView extends React.PureComponent {
         </View>
       </View>
 
-      <View style={{marginEnd:-8,flex:1,alignContent:'flex-end'}}>
+      <View style={{marginEnd:-8, flex:1, alignContent:'flex-end'}}>
         <View style={pixelsStyleRight}>
           {collection.map((o, key) =>
             <View
@@ -135,7 +147,7 @@ class FadedView extends React.PureComponent {
         </View>
       </View>
 
-    {children}
+      {children}
     </View>
     );
   }
@@ -143,13 +155,11 @@ class FadedView extends React.PureComponent {
 
 FadedView.propTypes = {
   children: PropTypes.object,
-  color: PropTypes.string,
-  direction: PropTypes.string
+  color: PropTypes.string
 }
 
 FadedView.defaultProps = {
-  color: '#ffffff',
-  direction: 'up'
+  color: '#ffffff'
 }
 
 export default FadedView;
