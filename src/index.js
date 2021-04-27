@@ -5,41 +5,42 @@ const ImageBlurShadow = (props) => {
 
   return (
     <View style={props.style}>
-        <Image
-            source={props.source}
-            style={[{
-                resizeMode: props.imageResizeMode,
-                width: props.imageWidth,
-                height: props.imageHeight,
-                borderRadius: props.imageBorderRadius,
-                marginBottom: props.shadowOffset
-                },
-                styles.image
-              ]}
-        />
+      <Image
+        source={props.source}
+        style={[{
+            width: props.imageWidth,
+            height: props.imageHeight,
+            borderRadius: props.imageBorderRadius,
+            marginBottom: props.shadowOffset,
+            resizeMode: props.imageResizeMode,
+            },
+            styles.image
+          ]}
+      />
       <View style={[
           {width: props.imageWidth}],
           styles.shadow_container}>
         <Image
-            source={props.source}
-            style={{
-                resizeMode:'cover',
-                width: props.imageWidth,
-                height: props.imageHeight,
-                opacity:1 
-            }}
-            blurRadius={props.shadowBlurRadius}
+          source={props.source}
+          style={{
+              resizeMode:'cover',
+              width: props.imageWidth,
+              height: props.imageHeight
+          }}
+          blurRadius={props.shadowBlurRadius}
         />
         <Image 
           source={require('./assets/blur.png')}
+          resizeMethod='auto'
+          tintColor={props.shadowBackgroundColor}
           style={{
-            position:'absolute',
-            width:props.imageWidth,
-            height:'80%',
-            bottom:0,
-            left:0,
-            resizeMode:'stretch',
-            tintColor: props.shadowBackgroundColor
+            width: '100%',
+            position: 'absolute',
+            height: undefined,
+            bottom: 0,
+            left: 0,
+            aspectRatio: 1.8,
+            resizeMode: 'cover'
           }}
           />
       </View>
@@ -49,12 +50,12 @@ const ImageBlurShadow = (props) => {
 
   const styles = StyleSheet.create({
     image:{
-      zIndex:1
+      zIndex: 1
     },
     shadow_container:{
-      position:'absolute',
-      zIndex: 0,
+      position: 'absolute',
       bottom: 0,
+      zIndex: 0
     }
   })
   
