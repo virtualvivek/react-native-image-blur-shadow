@@ -49,7 +49,7 @@ import ImageBlurShadow from 'react-native-image-blur-shadow'
 
 <ImageBlurShadow
     style={styles.img}
-    source={require('./src/assets/captain.jpg')}
+    source={require('./src/assets/spiderman.jpg')}
     imageWidth={220}
     imageHeight={220}
     imageBorderRadius={22}
