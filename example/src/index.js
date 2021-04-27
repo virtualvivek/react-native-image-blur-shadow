@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Image, StyleSheet } from 'react-native'
+import { View, Image, StyleSheet, Platform } from 'react-native'
 
 const ImageBlurShadow = (props) => {
 
@@ -37,7 +37,7 @@ const ImageBlurShadow = (props) => {
           style={{
             width: '100%',
             position: 'absolute',
-            height: undefined,
+            height: Platform.OS === 'web'? '55%': undefined,
             bottom: 0,
             left: 0,
             aspectRatio: 1.8,
