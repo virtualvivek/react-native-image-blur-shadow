@@ -62,8 +62,8 @@ const ImageBlurShadow = (props) => {
   ImageBlurShadow.defaultProps = {
       imageWidth: 200,
       imageHeight: 200,
-      shadowBlurRadius: 38,
-      shadowOffset: 52,
+      shadowBlurRadius: 18,
+      shadowOffset: 44,
       shadowBackgroundColor: '#ffffff'
     }
   

@@ -32,7 +32,6 @@ const ImageBlurShadow = (props) => {
         <Image 
           source={require('./assets/blur.png')}
           resizeMethod='auto'
-          
           tintColor={props.shadowBackgroundColor}
           style={{
             width: '100%',
@@ -64,8 +63,8 @@ const ImageBlurShadow = (props) => {
   ImageBlurShadow.defaultProps = {
       imageWidth: 200,
       imageHeight: 200,
-      shadowBlurRadius: 38,
-      shadowOffset: 52,
+      shadowBlurRadius: 18,
+      shadowOffset: 44,
       shadowBackgroundColor: '#ffffff'
     }
   
