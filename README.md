@@ -7,13 +7,13 @@ A RN library provides Image blur shadows supports nice animations and easy to cu
 </a>
 
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
-    <img src="https://img.shields.io/badge/platform-Android | iOS-green.svg?style=flat-square&logo=keyboard&color=8a1db3"
+    <img src="https://img.shields.io/badge/platform-Android | iOS | Web-green.svg?style=flat-square&logo=keyboard&color=8a1db3"
         alt="Platform" />
 </a>
 
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
     <img src="https://img.shields.io/badge/100%25-Javascript-green.svg?style=flat-square&logo=keyboard&color=e3e017"
-        alt="Platform" />
+        alt="Javascript" />
 </a>
   
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
