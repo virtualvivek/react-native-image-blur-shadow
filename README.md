@@ -1,6 +1,8 @@
-# react-native-image-blur-shadow
-A RN library provides Image blur shadows supports nice animations and easy to customize, Supports Android, iOS and Web.
+<h1 align="center">react-native-image-blur-shadow</h1>
+<p align="center">A RN library provides Image blur shadows supports nice animations and easy to customize, Supports Android, iOS and Web.</p>
 
+<p align="center">
+    
 <a href="https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-darklime.svg?style=flat-square&color=blue"
         alt="License: MIT" />
@@ -25,8 +27,10 @@ A RN library provides Image blur shadows supports nice animations and easy to cu
     <img src="https://img.shields.io/badge/npm-package-green.svg?style=flat-square&logo=npm&color=f55a42"
         alt="NPMJS" />
 </a>
+
+</p>
 ​
-<p>
+<p align="center">
     <img src="https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/app/markdown/md_preview_one.jpg" width="250" />
     <img src="https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/app/markdown/md_preview_two.jpg" width="250" />
 </p>
