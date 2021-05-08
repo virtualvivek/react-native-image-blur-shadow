@@ -1,5 +1,5 @@
 <h1 align="center">react-native-image-blur-shadow</h1>
-<p align="center">A RN library provides Image blur shadows supports nice animations and easy to customize, Supports Android, iOS and Web.</p>
+<p align="center">A RN library provides Image blur shadows, highly customizable and mutable component. Supports Android, iOS and Web.</p>
 
 <p align="center">
     
