@@ -7,6 +7,7 @@ const ImageBlurShadow = (props) => {
     <View style={props.style}>
       <Image
         source={props.source}
+        fadeDuration={props.imageFadeDuration}
         {...props}
         style={[{
             width: props.imageWidth,
@@ -28,6 +29,7 @@ const ImageBlurShadow = (props) => {
         <Image
           source={props.source}
           defaultSource={props.defaultProps}
+          fadeDuration={props.shadowFadeDuration}
           style={{
               resizeMode:'cover',
               width: props.imageWidth,
