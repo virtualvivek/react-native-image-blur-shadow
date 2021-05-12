@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-blur-shadow",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A React Native library provides Image blur shadows, highly customizable and mutable component. Supports Android, iOS and Web.",
   "keywords": [
     "image",
