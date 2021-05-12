@@ -81,15 +81,19 @@ import ImageBlurShadow from 'react-native-image-blur-shadow'
 
 ## Advance Props
 
-| Property             |  Type   | Default | Description                                  |
-| -------------------- | :-----: | :-----: | -------------------------------------------- |
-| defaultSource        | object  |  `{}`   | set the default image source `iOS`           |
-| onLoad               | object  |  `{}`   | on Image Load Callback                       |
-| onError              | object  |  `{}`   | on Image Error Callback                      |
-| onLoadStart          | object  |  `{}`   | on Image Load Start Callback                 |
-| onLoadEnd            | object  |  `{}`   | on Image Load End Callback                   |
-| onProgress           | object  |  `{}`   | on Image Load Progress Callback              |
-| onPartialLoad        | object  |  `{}`   | on Image Partial Load Callback               |
+| Property                    |  Type   | Default | Description                                  |
+| --------------------------- | :-----: | :-----: | -------------------------------------------- |
+| defaultSource               | object  |  `{}`   | set the default image source `iOS`           |
+| onLoad                      | object  |  `{}`   | on Image Load Callback                       |
+| onError                     | object  |  `{}`   | on Image Error Callback                      |
+| onLoadStart                 | object  |  `{}`   | on Image Load Start Callback                 |
+| onLoadEnd                   | object  |  `{}`   | on Image Load End Callback                   |
+| onProgress                  | object  |  `{}`   | on Image Load Progress Callback              |
+| onPartialLoad               | object  |  `{}`   | on Image Partial Load Callback               |
+| imageBorderTopLeftRadius    | number  |   0     | set image top left border radius             |
+| imageBorderTopRightRadius   | number  |   0     | set image top right border radius            |
+| imageBorderBottomLeftRadius | number  |   0     | set image bottom left border radius          |
+| imageBorderBottomRightRadius| number  |   0     | set image bottom right border radius         |
 
 
 ## Find this library useful? :heart:
