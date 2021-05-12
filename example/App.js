@@ -120,7 +120,8 @@ const styles = StyleSheet.create({
     textAlign:'center',
     marginTop:40,
     marginStart:15,
-    marginRight:15
+    marginRight:15,
+    alignItems:'center'
   }
 });
 

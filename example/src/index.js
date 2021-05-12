@@ -7,12 +7,17 @@ const ImageBlurShadow = (props) => {
     <View style={props.style}>
       <Image
         source={props.source}
+        {...props}
         style={[{
             width: props.imageWidth,
             height: props.imageHeight,
             borderRadius: props.imageBorderRadius,
             marginBottom: props.shadowOffset,
             resizeMode: props.imageResizeMode,
+            borderTopLeftRadius: props.imageBorderTopLeftRadius,
+            borderTopRightRadius: props.imageBorderTopRightRadius,
+            borderBottomLeftRadius: props.imageBorderBottomLeftRadius,
+            borderBottomRightRadius: props.imageBorderBottomRightRadius,
             },
             styles.image
           ]}
@@ -22,6 +27,7 @@ const ImageBlurShadow = (props) => {
           styles.shadow_container}>
         <Image
           source={props.source}
+          defaultSource={props.defaultProps}
           style={{
               resizeMode:'cover',
               width: props.imageWidth,
@@ -48,24 +54,23 @@ const ImageBlurShadow = (props) => {
   )
 }
 
-  const styles = StyleSheet.create({
-    image:{
-      zIndex:1,
-      opacity:1
-    },
-    shadow_container:{
-      position:'absolute',
-      zIndex: 0,
-      bottom: 0,
-    }
-  })
+const styles = StyleSheet.create({
+  image:{
+    zIndex:1
+  },
+  shadow_container:{
+    position:'absolute',
+    bottom: 0,
+    zIndex: 0
+  }
+})
   
-  ImageBlurShadow.defaultProps = {
-      imageWidth: 200,
-      imageHeight: 200,
-      shadowBlurRadius: 18,
-      shadowOffset: 44,
-      shadowBackgroundColor: '#ffffff'
-    }
+ImageBlurShadow.defaultProps = {
+  imageWidth: 200,
+  imageHeight: 200,
+  shadowBlurRadius: 18,
+  shadowOffset: 44,
+  shadowBackgroundColor: '#ffffff'
+  }
   
-  export default ImageBlurShadow
+export default ImageBlurShadow
