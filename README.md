@@ -75,9 +75,11 @@ import ImageBlurShadow from 'react-native-image-blur-shadow'
 | imageWidth           | number  |  default| set image width                              |
 | imageHeight          | number  |  default| set image height                             |
 | imageBorderRadius    | number  |  0      | set image border radius                      |
+| imageFadeDuration    | number  |  300    | set image fade animation duration in ms      |
 | shadowOffset         | number  |  38     | set/override shadow offset                   |
 | shadowBlurRadius     | number  |  34     | set/override shadow blurRadius               |
 | shadowBackgroundColor| HexColor|`#ffffff`| set/override shadow background color         |
+| shadowFadeDuration   | number  |  300    | set shadow fade animation duration in ms     |
 
 ## Advance Props
 
