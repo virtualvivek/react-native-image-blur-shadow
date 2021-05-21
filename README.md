@@ -1,5 +1,5 @@
 <h1 align="center">react-native-image-blur-shadow</h1>
-<p align="center">A RN library provides Image blur shadows, highly customizable and mutable component. Supports Android, iOS and Web.</p>
+<p align="center">A React Native library provides Image blur shadows, highly customizable and mutable component. Supports Android, iOS and Web.</p>
 
 <p align="center">
     
@@ -14,7 +14,7 @@
 </a>
 
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
-    <img src="https://img.shields.io/badge/100%25-Javascript-green.svg?style=flat-square&logo=keyboard&color=e3e017"
+    <img src="https://img.shields.io/badge/100%25-Javascript-green.svg?style=flat-square&logo=javascript&color=e3e017"
         alt="Javascript" />
 </a>
   
@@ -98,7 +98,7 @@ import ImageBlurShadow from 'react-native-image-blur-shadow'
 | imageBorderBottomRightRadius| number  |   0     | set image bottom right border radius         |
 
 
-## Find this library useful? :heart:
+# Find this library useful? :heart:
 Support it by joining [stargazers](https://github.com/virtualvivek/react-native-image-blur-shadow/stargazers) for this repository. :star:
 
 # License
