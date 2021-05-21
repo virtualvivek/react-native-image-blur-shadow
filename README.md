@@ -49,7 +49,7 @@ $ npm install react-native-image-blur-shadow
 import ImageBlurShadow from 'react-native-image-blur-shadow';
 ```
 
-## Usage
+# Usage
 
 ```jsx
 import ImageBlurShadow from 'react-native-image-blur-shadow'
