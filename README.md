@@ -1,5 +1,5 @@
 <h1 align="center">react-native-image-blur-shadow</h1>
-<p align="center">A React Native library provides Image blur shadows, highly customizable and mutable component. Supports Android, iOS and Web.</p>
+<p align="center">A React Native library provides <b>Image Blur Shadows</b>, highly customizable and mutable component. Supports Android, iOS and Web.</p>
 
 <p align="center">
     
@@ -9,16 +9,16 @@
 </a>
 
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
-    <img src="https://img.shields.io/badge/platform-Android | iOS | Web-green.svg?style=flat-square&logo=keyboard&color=8a1db3"
+    <img src="https://img.shields.io/badge/platform-Android | iOS | Web-green.svg?style=flat-square&logo=aiqfome&color=8a1db3"
         alt="Platform" />
 </a>
 
-<a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
+<a href="https://github.com/virtualvivek/react-native-image-blur-shadow/tree/main/src">
     <img src="https://img.shields.io/badge/100%25-Javascript-green.svg?style=flat-square&logo=javascript&color=e3e017"
         alt="Javascript" />
 </a>
   
-<a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
+<a href="https://github.com/virtualvivek/react-native-image-blur-shadow/releases/latest">
     <img src="https://img.shields.io/github/package-json/v/virtualvivek/react-native-image-blur-shadow?color=%2331b57e&style=flat-square"
         alt="Version" />
 </a>
