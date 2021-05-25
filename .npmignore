@@ -5,3 +5,5 @@ node_modules
 example
 #app folder
 app
+#.gitattributes
+.gitattributes
