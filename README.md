@@ -1,5 +1,5 @@
 <h1 align="center">react-native-image-blur-shadow</h1>
-<p align="center">A React Native library provides <b>Image Blur Shadows</b>, highly customizable and mutable component. Supports Android, iOS and Web.</p>
+<p align="center">A <b>React Native</b> library provides <b>Image Blur Shadows</b>, highly customizable and mutable component. Supports <b>Android, iOS</b> and <b>Web</b>.</p>
 
 <p align="center">
     
@@ -9,7 +9,7 @@
 </a>
 
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
-    <img src="https://img.shields.io/badge/platform-Android | iOS | Web-green.svg?style=flat-square&logo=aiqfome&color=8a1db3"
+    <img src="https://img.shields.io/badge/platform-Android | iOS | Web-green.svg?style=flat-square&color=8a1db3"
         alt="Platform" />
 </a>
 
@@ -99,9 +99,9 @@ import ImageBlurShadow from 'react-native-image-blur-shadow'
 
 
 # Find this library useful? :heart:
-Support it by joining [stargazers](https://github.com/virtualvivek/react-native-image-blur-shadow/stargazers) for this repository. :star:
+Support it by joining [**stargazers**](https://github.com/virtualvivek/react-native-image-blur-shadow/stargazers) for this repository. :star:
 
 # License
 
 `react-native-image-blur-shadow` is licensed under `MIT license`. View [license](https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/LICENSE). <br>
-Copyright (c) 2021 ` Vivek Verma `
+Copyright (c) 2021 [Vivek Verma](https://github.com/virtualvivek)
