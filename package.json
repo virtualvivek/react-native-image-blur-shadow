@@ -29,7 +29,7 @@
   "author": {
     "name": "Vivek Verma",
     "email": "virtualvivek7@gmail.com",
-    "url": "https://virtualvivek7.github.io"
+    "url": "https://virtualvivek.github.io"
   },
   "license": "MIT",
   "main": "./src/index.js",
@@ -56,5 +56,8 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "dependencies": {
+    "browserslist": "^4.16.5"
   }
 }
