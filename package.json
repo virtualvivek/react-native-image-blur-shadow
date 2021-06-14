@@ -56,8 +56,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "dependencies": {
-    "browserslist": "^4.16.5"
   }
 }
