@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@react-native-community/slider": "^3.0.3",
+    "browserslist": "^4.16.5",
     "react": "17.0.1",
     "react-native": "0.64.0"
   },
