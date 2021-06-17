@@ -99,7 +99,7 @@ import ImageBlurShadow from 'react-native-image-blur-shadow'
 
 
 # Find this library useful? :heart:
-Support it by joining [**stargazers**](https://github.com/virtualvivek/react-native-image-blur-shadow/stargazers) for this repository. :star:
+Support it by joining [stargazers](https://github.com/virtualvivek/react-native-image-blur-shadow/stargazers) for this repository. :star:
 
 # License
 
