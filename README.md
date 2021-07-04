@@ -9,7 +9,7 @@
 </a>
 
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
-    <img src="https://img.shields.io/badge/platform-Android | iOS | Web-green.svg?style=flat-square&color=8a1db3"
+    <img src="https://img.shields.io/badge/platform-Android | iOS | Web-green.svg?style=flat-square&color=8a1db3&logo=PyTorchLightning"
         alt="Platform" />
 </a>
 
@@ -55,23 +55,23 @@ import ImageBlurShadow from 'react-native-image-blur-shadow';
 import ImageBlurShadow from 'react-native-image-blur-shadow'
 
 <ImageBlurShadow
-    style={styles.img}
-    source={require('./src/assets/spiderman.jpg')}
-    imageWidth={220}
-    imageHeight={220}
-    imageBorderRadius={22}
-    shadowOffset={38}
-    shadowBlurRadius={48}
-    shadowBackgroundColor={'#ffffff'}
+   style={styles.img}
+   source={require('./src/assets/spiderman.jpg')}
+   imageWidth={220}
+   imageHeight={220}
+   imageBorderRadius={22}
+   shadowOffset={38}
+   shadowBlurRadius={48}
+   shadowBackgroundColor={'#ffffff'}
   />
 ```
 
-## Props
+# Props
 
 | Property             |  Type   | Default | Description                                  |
 | -------------------- | :-----: | :-----: | -------------------------------------------- |
 | style                | object  |  `{}`   | set the style of component container         |
-| source               | string  |  null   | set the image source                         |
+| source               | string  |  `null` | set the image source                         |
 | imageWidth           | number  |  default| set image width                              |
 | imageHeight          | number  |  default| set image height                             |
 | imageBorderRadius    | number  |  0      | set image border radius                      |
@@ -81,7 +81,7 @@ import ImageBlurShadow from 'react-native-image-blur-shadow'
 | shadowBackgroundColor| HexColor|`#ffffff`| set/override shadow background color         |
 | shadowFadeDuration   | number  |  300    | set shadow fade animation duration in ms     |
 
-## Advance Props
+# Advance Props
 
 | Property                    |  Type   | Default | Description                                  |
 | --------------------------- | :-----: | :-----: | -------------------------------------------- |
@@ -103,5 +103,5 @@ Support it by joining [stargazers](https://github.com/virtualvivek/react-native-
 
 # License
 
-`react-native-image-blur-shadow` is licensed under `MIT license`. View [license](https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/LICENSE). <br>
+**`react-native-image-blur-shadow`** is licensed under **`MIT license`**. View [license](https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/LICENSE). <br>
 Copyright (c) 2021 [Vivek Verma](https://github.com/virtualvivek)
