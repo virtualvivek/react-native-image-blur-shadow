@@ -51,7 +51,7 @@ import ImageBlurShadow from 'react-native-image-blur-shadow';
 
 # Usage
 
-```jsx
+```js
 import ImageBlurShadow from 'react-native-image-blur-shadow'
 
 <ImageBlurShadow
