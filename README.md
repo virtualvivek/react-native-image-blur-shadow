@@ -1,5 +1,6 @@
 <h1 align="center">react-native-image-blur-shadow</h1>
-<p align="center">A <b>React Native</b> library provides <b>Image Blur Shadows</b>, highly customizable and mutable component. Supports <b>Android, iOS</b> and <b>Web</b>.</p>
+<p align="center">A React Native <b>Image</b> component with <b>Blur Drop Shadows</b>, <b>100% JavaScript</b> highly customizable and mutable component. Supports <b>Android, iOS</b> and <b>Web</b>.
+</p>
 
 <p align="center">
     
