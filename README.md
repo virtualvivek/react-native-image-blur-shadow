@@ -18,10 +18,16 @@
     <img src="https://img.shields.io/badge/100%25-Javascript-green.svg?style=flat-square&logo=javascript&color=e3e017"
         alt="Javascript" />
 </a>
+    
+<br/>
   
 <a href="https://github.com/virtualvivek/react-native-image-blur-shadow/releases/latest">
     <img src="https://img.shields.io/github/package-json/v/virtualvivek/react-native-image-blur-shadow?color=%2331b57e&style=flat-square"
         alt="Version" />
+</a>
+    
+<a href="https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/src/index.js">
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/virtualvivek/react-native-image-blur-shadow?color=4fba32&style=flat-square">
 </a>
 
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
