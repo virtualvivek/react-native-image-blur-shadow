@@ -16,7 +16,7 @@
 </a>
 
 <a href="https://github.com/virtualvivek/react-native-image-blur-shadow/tree/main/src">
-    <img src="https://img.shields.io/badge/100%25-Javascript-green.svg?style=flat-square&logo=javascript&color=e3e017"
+    <img src="https://img.shields.io/badge/100%25-Javascript-green.svg?style=flat-square&logo=javascript&color=F7DF1E"
         alt="Javascript" />
 </a>
     
@@ -32,7 +32,7 @@
 </a>
 
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
-    <img src="https://img.shields.io/badge/npm-package-green.svg?style=flat-square&logo=npm&color=f55a42"
+    <img src="https://img.shields.io/badge/npm-package-green.svg?style=flat-square&logo=npm&color=CB3837"
         alt="NPMJS" />
 </a>
 
