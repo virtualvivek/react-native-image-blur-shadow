@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/badge/License-MIT-darklime.svg?style=flat-square&color=blue"
         alt="License: MIT" />
 </a>
+    
 
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
     <img src="https://img.shields.io/badge/platform-Android | iOS | Web-green.svg?style=flat-square&color=8a1db3&logo=PyTorchLightning"
