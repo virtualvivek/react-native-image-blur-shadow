@@ -1,15 +1,9 @@
 <h1 align="center">react-native-image-blur-shadow</h1>
-<p align="center">A React Native <b><code>Image</code></b> component with <b>Blur Drop Shadows</b>, <b>100% JavaScript</b>, <b>0 Dependency component</b>. Supports <b>Android, iOS</b> and <b>Web</b>.
+<p align="center">A React Native <b><code>&lt;Image/&gt;</code></b> component with <b>Blur Drop Shadows</b>, <b>100% JavaScript</b>, <b>0 Dependency component</b>. <br/>Supports <b>Android, iOS</b> and <b>Web</b>.
 </p>
 
 
-<p align="center">
-    
-<a href="https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-darklime.svg?style=flat-square&color=blue"
-        alt="License: MIT" />
-</a>
-    
+<p align="center">  
 
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
     <img src="https://img.shields.io/badge/platform-Android | iOS | Web-green.svg?style=flat-square&color=8a1db3&logo=PyTorchLightning"
@@ -40,8 +34,8 @@
 </p>
 ​
 <p align="center">
-    <img src="https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/app/markdown/md_preview_one.jpg" width="250" />
-    <img src="https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/app/markdown/md_preview_two.jpg" width="250" />
+    <img src="https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/app/markdown/md_preview_one.png" width="250" />
+    <img src="https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/app/markdown/md_preview_two.png" width="250" />
 </p>
 
 # Demo
@@ -55,24 +49,24 @@ $ npm install react-native-image-blur-shadow
 ## Import
 
 ```jsx
-import ImageBlurShadow from 'react-native-image-blur-shadow';
+import ImageBlurShadow from "react-native-image-blur-shadow";
 ```
 
 # Usage
 
 ```js
-import ImageBlurShadow from 'react-native-image-blur-shadow'
+import ImageBlurShadow from "react-native-image-blur-shadow";
 
 <ImageBlurShadow
-   style={styles.img}
-   source={require('./src/assets/spiderman.jpg')}
-   imageWidth={220}
-   imageHeight={220}
-   imageBorderRadius={22}
-   shadowOffset={38}
-   shadowBlurRadius={48}
-   shadowBackgroundColor={'#ffffff'}
-  />
+  style={styles.img}
+  source={require('./src/assets/spiderman.jpg')}
+  imageWidth={220}
+  imageHeight={220}
+  imageBorderRadius={22}
+  shadowOffset={38}
+  shadowBlurRadius={48}
+  shadowBackgroundColor={'#ffffff'}
+/>
 ```
 
 # Props
@@ -107,7 +101,7 @@ import ImageBlurShadow from 'react-native-image-blur-shadow'
 | imageBorderBottomRightRadius| number  |   0     | set image bottom right border radius         |
 
 
-# Find this library useful? :heart:
+# Find this component useful? :heart:
 Support it by joining [stargazers](https://github.com/virtualvivek/react-native-image-blur-shadow/stargazers) for this repository. :star:
 
 # License
