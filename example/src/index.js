@@ -70,8 +70,8 @@ const styles = StyleSheet.create({
 ImageBlurShadow.defaultProps = {
   imageWidth: 200,
   imageHeight: 200,
-  shadowBlurRadius: 18,
   shadowOffset: 44,
+  shadowBlurRadius: 18,
   shadowBackgroundColor: '#ffffff'
   }
   
