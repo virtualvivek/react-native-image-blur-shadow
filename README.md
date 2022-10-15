@@ -35,7 +35,7 @@
 ​
 <p align="center">
     <img src="https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/app/markdown/md_preview_one.png" width="250" />
-    <img src="https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/app/markdown/md_preview_two.png" width="250" />
+    
 </p>
 
 # Demo
