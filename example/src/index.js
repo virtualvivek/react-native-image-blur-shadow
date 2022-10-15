@@ -24,8 +24,8 @@ const ImageBlurShadow = (props) => {
           ]}
       />
       <View style={[
-          {width: props.imageWidth}],
-          styles.shadow_container}>
+          {width: props.imageWidth},
+          styles.shadow_container]}>
         <Image
           source={props.source}
           defaultSource={props.defaultProps}
