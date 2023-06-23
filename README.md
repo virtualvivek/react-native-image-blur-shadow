@@ -2,7 +2,6 @@
 <p align="center">A React Native <b><code>&lt;Image/&gt;</code></b> component with <b>Blur Drop Shadows</b>, <b>100% JavaScript</b>, <b>0 Dependency component</b>. <br/>Supports <b>Android, iOS</b> and <b>Web</b>.
 </p>
 
-
 <p align="center">  
 
 <a href="https://www.npmjs.com/package/react-native-image-blur-shadow">
