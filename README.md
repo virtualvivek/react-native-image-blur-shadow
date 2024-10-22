@@ -106,4 +106,4 @@ Support it by joining [stargazers](https://github.com/virtualvivek/react-native-
 # License
 
 **`react-native-image-blur-shadow`** is licensed under **`MIT license`**. View [license](https://github.com/virtualvivek/react-native-image-blur-shadow/blob/main/LICENSE). <br>
-Copyright (c) 2021 [Vivek Verma](https://github.com/virtualvivek)
+Copyright (c) 2021-24 [Vivek Verma](https://github.com/virtualvivek)
